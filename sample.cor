@@ -1,0 +1,347 @@
+#crea_terminal 1 5 3
+#num_hileras
+1
+#num_plazas
+5
+#num_pisos
+3
+#inserta_contenedor W 3
+<0,0,0>
+#inserta_contenedor X 2
+<0,3,0>
+#inserta_contenedor R 1
+<0,0,1>
+#inserta_contenedor Y 3
+<0,1,1>
+#inserta_contenedor Z 1
+<0,4,1>
+#inserta_contenedor T 2
+<0,0,2>
+#inserta_contenedor Q 1
+<0,2,2>
+#inserta_contenedor U 1
+<0,3,2>
+#area_almacenaje
+hilera 0
+2 TTQU 
+1 RYYYZ
+0 WWWXX
+  01234
+
+#inserta_contenedor U 1
+error: el contenedor ya existe
+#retira_contenedor PEPE
+error: el contenedor no existe
+#donde T
+<0,0,2>
+#longitud T
+2
+#donde NOESTA
+<-1,-1,-1>
+#longitud NOESTA
+error: el contenedor no existe
+#contenedor_ocupa 0 2 1
+Y
+#contenedor_ocupa 0 4 2
+
+#contenedor_ocupa 1 0 0
+error: ubicacion fuera de rango
+#retira_contenedor Q
+#area_almacenaje
+hilera 0
+2 TT U 
+1 RYYYZ
+0 WWWXX
+  01234
+
+#huecos
+(<0,2,2>,1)
+(<0,4,2>,1)
+
+#area_espera
+
+#retira_contenedor X
+#area_almacenaje
+hilera 0
+2 Z    
+1 RUYYY
+0 WWWTT
+  01234
+
+#huecos
+(<0,1,2>,4)
+
+#area_espera
+
+#contenedores
+R(<0,0,1>,1)
+T(<0,3,0>,2)
+U(<0,1,1>,1)
+W(<0,0,0>,3)
+Y(<0,2,1>,3)
+Z(<0,0,2>,1)
+
+#crea_terminal 1 6 3
+#num_hileras
+1
+#num_plazas
+6
+#num_pisos
+3
+#i A 3
+<0,0,0>
+#i B 2
+<0,0,1>
+#i C 3
+<0,3,0>
+#i D 1
+<0,0,2>
+#i E 1
+<0,1,2>
+#i F 3
+<0,2,1>
+#i G 1
+<0,5,1>
+#i H 2
+<0,2,2>
+#area_almacenaje
+hilera 0
+2 DEHH  
+1 BBFFFG
+0 AAACCC
+  012345
+
+#huecos
+(<0,4,2>,2)
+
+#area_espera
+
+#r A
+#area_almacenaje
+hilera 0
+2 BB   E
+1 HHD  G
+0 FFFCCC
+  012345
+
+#huecos
+(<0,2,2>,1)
+(<0,3,1>,2)
+
+#area_espera
+
+#r E
+#r C
+#area_almacenaje
+hilera 0
+2 BBG   
+1 HHD   
+0 FFF   
+  012345
+
+#huecos
+(<0,3,0>,3)
+
+#area_espera
+
+#i I 1
+<0,3,0>
+#i J 3
+<-1,0,0>
+#i K 2
+<0,4,0>
+#area_almacenaje
+hilera 0
+2 BBG   
+1 HHDJJJ
+0 FFFIKK
+  012345
+
+#huecos
+(<0,3,2>,3)
+
+#area_espera
+
+#i L 2
+<0,3,2>
+#i M 3
+<-1,0,0>
+#i N 2
+<-1,0,0>
+#i Q 2
+<-1,0,0>
+#i P 3
+<-1,0,0>
+#area_almacenaje
+hilera 0
+2 BBGLL 
+1 HHDJJJ
+0 FFFIKK
+  012345
+
+#area_espera
+P(3)
+Q(2)
+N(2)
+M(3)
+
+#r N
+#area_espera
+P(3)
+Q(2)
+M(3)
+
+#contenedores
+B(<0,0,2>,2)
+D(<0,2,1>,1)
+F(<0,0,0>,3)
+G(<0,2,2>,1)
+H(<0,0,1>,2)
+I(<0,3,0>,1)
+J(<0,3,1>,3)
+K(<0,4,0>,2)
+L(<0,3,2>,2)
+M(<-1,0,0>,3)
+P(<-1,0,0>,3)
+Q(<-1,0,0>,2)
+
+#crea_terminal 3 3 4
+#num_hileras
+3
+#num_plazas
+3
+#num_pisos
+4
+#i MM0 1
+<0,0,0>
+#i NU 1
+<0,0,1>
+#i SOS 1
+<0,0,2>
+#i BARTO 3
+<1,0,0>
+#i ABC 2
+<0,1,0>
+#i WERT 1
+<0,0,3>
+#i QWE 3
+<1,0,1>
+#i F25 3
+<1,0,2>
+#i JAJA 1
+<0,1,1>
+#i OH 2
+<1,0,3>
+#i UBUNTU 2
+<2,0,0>
+#i ZAS 3
+<-1,0,0>
+#i X 3
+<-1,0,0>
+#i IKEA1 3
+<-1,0,0>
+#i GAGA 3
+<-1,0,0>
+#i VAX 3
+<-1,0,0>
+#area_almacenaje
+hilera 0
+3 W  
+2 S  
+1 NJ 
+0 MAA
+  012
+
+hilera 1
+3 OO 
+2 FFF
+1 QQQ
+0 BBB
+  012
+
+hilera 2
+3    
+2    
+1    
+0 UU 
+  012
+
+#huecos
+(<0,1,2>,1)
+(<0,2,1>,1)
+(<1,2,3>,1)
+(<2,2,0>,1)
+(<2,0,1>,2)
+
+#area_espera
+VAX(3)
+GAGA(3)
+IKEA1(3)
+X(3)
+ZAS(3)
+
+#retira_contenedor UBUNTU
+#inserta_contenedor L 1
+<0,1,2>
+#inserta_contenedor PAS 2
+<-1,0,0>
+#area_almacenaje
+hilera 0
+3 W  
+2 SL 
+1 NJ 
+0 MAA
+  012
+
+hilera 1
+3 OO 
+2 FFF
+1 QQQ
+0 BBB
+  012
+
+hilera 2
+3 XXX
+2 III
+1 GGG
+0 VVV
+  012
+
+#huecos
+(<0,1,3>,1)
+(<0,2,1>,1)
+(<1,2,3>,1)
+
+#area_espera
+PAS(2)
+ZAS(3)
+
+#donde PAS
+<-1,0,0>
+#longitud PAS
+2
+#contenedor_ocupa 0 0 0
+MM0
+#contenedor_ocupa 1 1 1
+QWE
+#contenedor_ocupa 2 2 2
+IKEA1
+#contenedores
+ABC(<0,1,0>,2)
+BARTO(<1,0,0>,3)
+F25(<1,0,2>,3)
+GAGA(<2,0,1>,3)
+IKEA1(<2,0,2>,3)
+JAJA(<0,1,1>,1)
+L(<0,1,2>,1)
+MM0(<0,0,0>,1)
+NU(<0,0,1>,1)
+OH(<1,0,3>,2)
+PAS(<-1,0,0>,2)
+QWE(<1,0,1>,3)
+SOS(<0,0,2>,1)
+VAX(<2,0,0>,3)
+WERT(<0,0,3>,1)
+X(<2,0,3>,3)
+ZAS(<-1,0,0>,3)
+

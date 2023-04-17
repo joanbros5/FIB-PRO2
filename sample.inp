@@ -1,0 +1,108 @@
+crea_terminal 1 5 3
+num_hileras
+num_plazas
+num_pisos
+inserta_contenedor W 3
+inserta_contenedor X 2
+inserta_contenedor R 1
+inserta_contenedor Y 3
+inserta_contenedor Z 1
+inserta_contenedor T 2
+inserta_contenedor Q 1
+inserta_contenedor U 1
+area_almacenaje
+inserta_contenedor U 1
+retira_contenedor PEPE
+donde T
+longitud T
+donde NOESTA
+longitud NOESTA
+contenedor_ocupa 0 2 1
+contenedor_ocupa 0 4 2
+contenedor_ocupa 1 0 0
+retira_contenedor Q
+area_almacenaje
+huecos
+area_espera
+retira_contenedor X
+area_almacenaje
+huecos
+area_espera
+contenedores
+crea_terminal 1 6 3
+num_hileras
+num_plazas
+num_pisos
+i A 3
+i B 2
+i C 3
+i D 1
+i E 1
+i F 3
+i G 1
+i H 2
+area_almacenaje
+huecos
+area_espera
+r A
+area_almacenaje
+huecos
+area_espera
+r E
+r C
+area_almacenaje
+huecos
+area_espera
+i I 1
+i J 3
+i K 2
+area_almacenaje
+huecos
+area_espera
+i L 2
+i M 3
+i N 2
+i Q 2
+i P 3
+area_almacenaje
+area_espera
+r N
+area_espera
+contenedores
+crea_terminal 3 3 4
+num_hileras
+num_plazas
+num_pisos
+i MM0 1
+i NU 1
+i SOS 1
+i BARTO 3
+i ABC 2
+i WERT 1
+i QWE 3
+i F25 3
+i JAJA 1
+i OH 2
+i UBUNTU 2
+i ZAS 3
+i X 3
+i IKEA1 3
+i GAGA 3
+i VAX 3
+area_almacenaje
+huecos
+area_espera
+retira_contenedor UBUNTU
+inserta_contenedor L 1
+inserta_contenedor PAS 2
+area_almacenaje
+huecos
+area_espera
+donde PAS
+longitud PAS
+contenedor_ocupa 0 0 0
+contenedor_ocupa 1 1 1
+contenedor_ocupa 2 2 2
+contenedores
+fin
+
