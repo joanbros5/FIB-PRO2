@@ -1,0 +1,63 @@
+crea_terminal 3 6 4
+num_hileras
+num_plazas
+num_pisos
+i BARTO 3
+i MM0 1
+i NU 1
+i ABC 2
+i OH 2
+i SOS 1
+i BARTO 1
+r BERTO
+i QWE 3
+area_almacenaje2
+i UBUNTU 2
+i F25 3
+i ZAS 2
+i WERT 1
+i X 3
+i JAJA 1
+i IKEA1 2
+i GAGA 3
+i VAX 2
+i ZULU 1
+i YAK 1
+i DID 3
+i EPS 2
+i MANU 2
+i HH23 3
+i LLOLL 3
+area_almacenaje
+huecos
+area_espera
+retira_contenedor SOS
+area_almacenaje
+huecos
+inserta_contenedor L 1
+inserta_contenedor PAS 2
+inserta_contenedor AMANDA 3
+area_almacenaje
+huecos
+r X
+area_almacenaje2
+huecos
+area_espera
+donde MANU
+longitud MM0
+contenedor_ocupa 0 0 0
+contenedor_ocupa 1 1 1
+contenedor_ocupa 2 2 2
+i ZZ 3
+i YY 3
+i XX 2
+i WW 3
+i VV 3
+i UU 2
+i TT 3
+i SS 3
+i RR 3
+area_espera
+contenedores
+fin
+

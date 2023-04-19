@@ -1,0 +1,272 @@
+#crea_terminal 3 6 4
+#num_hileras
+3
+#num_plazas
+6
+#num_pisos
+4
+#i BARTO 3
+<0,0,0>
+#i MM0 1
+<0,3,0>
+#i NU 1
+<0,4,0>
+#i ABC 2
+<0,0,1>
+#i OH 2
+<0,0,2>
+#i SOS 1
+<0,5,0>
+#i BARTO 1
+error: el contenedor ya existe
+#r BERTO
+error: el contenedor no existe
+#i QWE 3
+<0,2,1>
+#area_almacenaje2
+hilera 0
+3   ++++
+2 OO   +
+1 AAQQQ 
+0 BBBMNS
+  012345
+
+hilera 1
+3 ++++++
+2 ++++++
+1 ++++++
+0       
+  012345
+
+hilera 2
+3 ++++++
+2 ++++++
+1 ++++++
+0       
+  012345
+
+#i UBUNTU 2
+<0,0,3>
+#i F25 3
+<0,2,2>
+#i ZAS 2
+<0,2,3>
+#i WERT 1
+<0,5,1>
+#i X 3
+<1,0,0>
+#i JAJA 1
+<0,5,2>
+#i IKEA1 2
+<0,4,3>
+#i GAGA 3
+<1,3,0>
+#i VAX 2
+<1,0,1>
+#i ZULU 1
+<1,0,2>
+#i YAK 1
+<1,1,2>
+#i DID 3
+<1,2,1>
+#i EPS 2
+<1,0,3>
+#i MANU 2
+<1,2,2>
+#i HH23 3
+<2,0,0>
+#i LLOLL 3
+<2,3,0>
+#area_almacenaje
+hilera 0
+3 UUZZII
+2 OOFFFJ
+1 AAQQQW
+0 BBBMNS
+  012345
+
+hilera 1
+3 EE    
+2 ZYMM  
+1 VVDDD 
+0 XXXGGG
+  012345
+
+hilera 2
+3       
+2       
+1       
+0 HHHLLL
+  012345
+
+#huecos
+(<1,5,1>,1)
+(<1,4,2>,1)
+(<1,2,3>,2)
+(<2,0,1>,6)
+
+#area_espera
+
+#retira_contenedor SOS
+#area_almacenaje
+hilera 0
+3 UUZZ  
+2 OOFFF 
+1 AAQQQJ
+0 BBBMNW
+  012345
+
+hilera 1
+3 EEII  
+2 ZYMM  
+1 VVDDD 
+0 XXXGGG
+  012345
+
+hilera 2
+3       
+2       
+1       
+0 HHHLLL
+  012345
+
+#huecos
+(<0,5,2>,1)
+(<0,4,3>,1)
+(<1,5,1>,1)
+(<1,4,2>,1)
+(<2,0,1>,6)
+
+#inserta_contenedor L 1
+<0,5,2>
+#inserta_contenedor PAS 2
+<0,4,3>
+#inserta_contenedor AMANDA 3
+<2,0,1>
+#area_almacenaje
+hilera 0
+3 UUZZPP
+2 OOFFFL
+1 AAQQQJ
+0 BBBMNW
+  012345
+
+hilera 1
+3 EEII  
+2 ZYMM  
+1 VVDDD 
+0 XXXGGG
+  012345
+
+hilera 2
+3       
+2       
+1 AAA   
+0 HHHLLL
+  012345
+
+#huecos
+(<1,5,1>,1)
+(<1,4,2>,1)
+(<2,3,1>,3)
+(<2,0,2>,3)
+
+#r X
+#area_almacenaje2
+hilera 0
+3 UUZZPP
+2 OOFFFL
+1 AAQQQJ
+0 BBBMNW
+  012345
+
+hilera 1
+3 VV +++
+2 IIZ  +
+1 MMYEE 
+0 DDDGGG
+  012345
+
+hilera 2
+3 ++++++
+2    +++
+1 AAA   
+0 HHHLLL
+  012345
+
+#huecos
+(<1,5,1>,1)
+(<1,2,3>,1)
+(<1,3,2>,2)
+(<2,3,1>,3)
+(<2,0,2>,3)
+
+#area_espera
+
+#donde MANU
+<1,0,1>
+#longitud MM0
+1
+#contenedor_ocupa 0 0 0
+BARTO
+#contenedor_ocupa 1 1 1
+MANU
+#contenedor_ocupa 2 2 2
+
+#i ZZ 3
+<2,3,1>
+#i YY 3
+<2,0,2>
+#i XX 2
+<1,3,2>
+#i WW 3
+<1,2,3>
+#i VV 3
+<2,3,2>
+#i UU 2
+<2,0,3>
+#i TT 3
+<2,2,3>
+#i SS 3
+<-1,0,0>
+#i RR 3
+<-1,0,0>
+#area_espera
+RR(3)
+SS(3)
+
+#contenedores
+ABC(<0,0,1>,2)
+AMANDA(<2,0,1>,3)
+BARTO(<0,0,0>,3)
+DID(<1,0,0>,3)
+EPS(<1,3,1>,2)
+F25(<0,2,2>,3)
+GAGA(<1,3,0>,3)
+HH23(<2,0,0>,3)
+IKEA1(<1,0,2>,2)
+JAJA(<0,5,1>,1)
+L(<0,5,2>,1)
+LLOLL(<2,3,0>,3)
+MANU(<1,0,1>,2)
+MM0(<0,3,0>,1)
+NU(<0,4,0>,1)
+OH(<0,0,2>,2)
+PAS(<0,4,3>,2)
+QWE(<0,2,1>,3)
+RR(<-1,0,0>,3)
+SS(<-1,0,0>,3)
+TT(<2,2,3>,3)
+UBUNTU(<0,0,3>,2)
+UU(<2,0,3>,2)
+VAX(<1,0,3>,2)
+VV(<2,3,2>,3)
+WERT(<0,5,0>,1)
+WW(<1,2,3>,3)
+XX(<1,3,2>,2)
+YAK(<1,2,1>,1)
+YY(<2,0,2>,3)
+ZAS(<0,2,3>,2)
+ZULU(<1,2,2>,1)
+ZZ(<2,3,1>,3)
+
